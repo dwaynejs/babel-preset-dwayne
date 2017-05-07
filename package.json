@@ -1,10 +1,10 @@
 {
   "name": "babel-preset-dwayne",
-  "version": "1.2.1",
+  "version": "4.0.0",
   "main": "lib/index.js",
   "dependencies": {
-    "babel-plugin-transform-dwayne-html": "^1.2.0",
-    "babel-plugin-transform-dwayne-js": "^1.2.0",
+    "babel-plugin-transform-dwayne-html": "^4.0.0",
+    "babel-plugin-transform-dwayne-js": "^4.0.0",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
