@@ -1,24 +1,11 @@
 {
   "name": "babel-preset-dwayne",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "main": "lib/index.js",
   "dependencies": {
-    "babel-plugin-transform-dwayne-html": "^4.0.0",
-    "babel-plugin-transform-dwayne-js": "^4.0.0",
+    "babel-plugin-transform-dwayne-html": "^5.0.0",
+    "babel-plugin-transform-dwayne-js": "^5.0.0",
+    "babel-plugin-transform-dwayne-jsx": "^5.0.0",
     "lodash": "^4.17.4"
-  },
-  "devDependencies": {
-    "buffer": "^5.0.6",
-    "events": "^1.1.1",
-    "rollup": "^0.41.6",
-    "rollup-plugin-commonjs": "^8.0.2",
-    "rollup-plugin-json": "^2.1.1",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "stream": "0.0.2",
-    "util": "^0.10.3"
-  },
-  "scripts": {
-    "build": "rollup -c rollup.build.config.js",
-    "prepublish": "npm run build"
   }
 }
