@@ -1,6 +1,6 @@
-var _ = require('lodash');
+const _ = require('lodash');
 
-module.exports = function (context, options) {
+module.exports = (context, options) => {
   options = _.assign({}, options);
 
   options.transformEmbeddedHtml = !!_.get(options, 'transformEmbeddedHtml', true);
@@ -12,7 +12,7 @@ module.exports = function (context, options) {
   options.taggedJsFuncName = _.get(options, 'taggedJsFuncName', 'js');
   options.useES6 = !!_.get(options, 'useES6', true);
 
-  var commonOpts = _.omit(options, [
+  const commonOpts = _.omit(options, [
     'transformEmbeddedHtml',
     'transformEmbeddedHtmlScopeless',
     'transformEmbeddedJs',
@@ -21,7 +21,7 @@ module.exports = function (context, options) {
     'taggedHtmlScopelessFuncName',
     'taggedJsFuncName'
   ]);
-  var plugins = [];
+  const plugins = [];
 
   if (options.transformEmbeddedJs) {
     plugins.push([
@@ -49,7 +49,5 @@ module.exports = function (context, options) {
     ]);
   }
 
-  return {
-    plugins: plugins
-  };
+  return { plugins };
 };

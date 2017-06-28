@@ -1,0 +1,6 @@
+{
+  "transformEmbeddedHtml": false,
+  "transformEmbeddedHtmlScopeless": true,
+  "transformEmbeddedJs": false,
+  "transformJsx": false
+}
