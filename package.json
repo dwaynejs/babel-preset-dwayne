@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-dwayne",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "main": "lib/index.js",
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -36,9 +36,9 @@
     "all": true
   },
   "dependencies": {
-    "babel-plugin-transform-dwayne-html": "^5.0.0",
-    "babel-plugin-transform-dwayne-js": "^5.0.0",
-    "babel-plugin-transform-dwayne-jsx": "^5.0.0",
+    "babel-plugin-transform-dwayne-html": "^5.0.3",
+    "babel-plugin-transform-dwayne-js": "^5.0.2",
+    "babel-plugin-transform-dwayne-jsx": "^5.0.7",
     "lodash": "^4.17.4"
   }
 }
